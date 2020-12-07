@@ -1,2 +1,2 @@
-# Foot_Pressure_Measurement
+# Foot Pressure Measurement
 
