@@ -18,8 +18,8 @@
 
 
 // Replace with your network credentials
- char* ssid = "Rohan B4U";
-const char* password = "Malhar@123";
+ char* ssid = "Curiousity";
+const char* password = "Physics121";
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
@@ -89,5 +89,10 @@ void setup(){
   server.begin();
 }
  
-void loop(){}
+void loop(){
+      File tempLog = SPIFFS.open("/data.csv", "a"); // Write the time and the temperature to the csv file
+      tempLog.print(readRightPressureData());
+      tempLog.print(',');
+      tempLog.println(readLeftPressureData());
+      tempLog.close();}
   
