@@ -1,13 +1,13 @@
 # Foot Pressure Measurement and Analysis
 ### Measurement Systems Course Project 2020-21
 
-In this project, I have measured plantar pressure of foot with force sensor and relayed that sensor-data on the webserver. I have used ESP32 and Flexiforce Sensor for this project.
+In this project, I have measured plantar pressure of foot with force sensor and relayed that sensor-data on the webserver. I have used ESP32 and Flexiforce Sensor for this project.<br>
 **Block Diagram of the Project:**<br>
 
 <img src = "bd.png" width = "450" height="599"><br>
 **Prototype of the Project:**<br>
 <img src = "pt.png" width = "450" height="299">
-<img src = "pt2.png" width = "450" height="299"><br>
+<img src = "pt2.png" width = "350" height="259"><br>
 For additional help, refer to the [Project Report](https://gitlab.com/ARohitt/foot_pressure_measurement/-/blob/master/Project%20Report.pdf)
 <br>
 Any suggestions or queries, contact me on [ARohitt](mailto:rohit.asegaonkar18@vit.edu).<br>
